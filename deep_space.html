@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Космические летательные аппараты" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="Космос" content="Все о летательных космических аппаратах" />
+<meta name="Летательные аппараты" content="Все о летательных космических аппаратах" />
+<meta name="viewport" content="width=device-width">
+<link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(function(){
+				$("a[href^='#']").click(function(){
+						var _href = $(this).attr("href");
+						$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+						return false;
+				});
+		});
+	</script>
+	
+<div id="header-wrapper2">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="index.html">Космические<br>летательные<br>аппараты</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="index.html" accesskey="1" title="">Главная</a></li>
+				<li><a href="history.html" accesskey="2" title="">История развития</a></li>
+				<li><a href="first.html" accesskey="3" title="">Первые полеты людей</a></li>
+				<li><a href="deep_space.html" accesskey="4" title="">Космические станции<br> и дальний космос</a></li>
+				<li><a href="nowadays.html" accesskey="5" title="">Современные достижения</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+<div id="wrapper2">
+    <div id="three-column" class="container">
+    <div class="title">
+	<p>
+		Новым этапом развития летательных космических аппаратов стало освоение дальнего космоса и поверхностей планет, а также длительное пребывание человека в космосе.<br>
+		В 1986 году Советский Союз вывел на околоземную орбиту базовый блок станции «Мир», которая стала символом той эпохи. Она позволила проводить ученым исследования в условиях невесомости.<br>
+		<figure class = "deep01" height="350" width="600" > <img src="images/deep01.jpg" id="deep01" height="350" width="600" > <figcaption>Станция «Мир»</figcaption> </figure><br>
+		В апреле 1990 года был выведен на орбиту один из самых известных телескопов в мире – «Хаббл», который дал огромный толчок в изучении дальнего космоса. На данный момент общий объем данных накопленных телескопом составляет примерно 50 терабайт, почти все фотографии космоса, которые можно увидеть сделаны именно этим телескопом(подробнее с ними можно ознакомиться по <a href="https://hubblesite.org">ссылке</a>).<br>
+		<figure class = "deep02" height="350" width="600" > <img src="images/deep02.jpg" id="deep02" height="350" width="600" > <figcaption>«Хаббл»</figcaption> </figure><br>
+		В 1998 году Международная космическая станция пришла на замену «Миру». МКС почти в 5 раз больше прошлой станции и служит местом пребывания космонавтов и по сей день. Всего в проекте МКС участвует 14 стран.<br>
+		<figure class = "deep03" height="350" width="600" > <img src="images/deep03.jpg" id="deep03" height="350" width="600" > <figcaption>Международная Космическая Станция</figcaption> </figure><br>
+    </p>
+</div>
+</div>
+    <div>
+        <ul class="actions">
+            <li><a href="#header-wrapper2" class="button1"  >Вернуться в начало</a></li>
+        </ul>
+    </div>       
+</div>    
+</body>
+</html>
